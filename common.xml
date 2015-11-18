@@ -18,8 +18,11 @@
 	<project path="hardware/qcom/media-legacy" name="cmtrebon/android_hardware_qcom_media-legacy" revision="cm-11.0" />
 	<project path="hardware/qcom/display-legacy" name="cmtrebon/android_hardware_qcom_display-legacy" revision="cm-11.0" />
 	<project path="hardware/libhardware" name="cmtrebon/android_hardware_libhardware" revision="cm-11.0" />
-	<project path="hardware/qcom/fm" name="cmtrebon/android_hardware_qcom_fm" revision="cm-11.0" />
 	
 	<!-- Legacy webkit -->
 	<project path="external/webkit" name="cmtrebon/android_external_webkit" revision="cm-11.0" />
+	
+	<!-- FM Radio + App -->
+	<project path="hardware/qcom/fm-mr1" name="legaCyMod/android_hardware_qcom_fm" revision="cm-11.0" />
+    <project path="packages/apps/FM2" name="legaCyMod/android_packages_apps_FM2" revision="cm-11.0" />
 </manifest>
